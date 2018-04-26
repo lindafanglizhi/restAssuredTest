@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31" started-at="2018-04-26T03:31:14Z" finished-at="2018-04-26T03:31:14Z">
+    <groups>
+      <group name="windows.checkintestsample">
+        <method signature="firstTest.testSingleString(java.lang.String)[pri:0, instance:com.flz.rest.firstTest@5474c6c]" name="testSingleString" class="com.flz.rest.firstTest"/>
+      </group> <!-- windows.checkintestsample -->
+      <group name="windows.functest">
+        <method signature="firstTest.testWindowsToo()[pri:0, instance:com.flz.rest.firstTest@5474c6c]" name="testWindowsToo" class="com.flz.rest.firstTest"/>
+      </group> <!-- windows.functest -->
+      <group name="windows.checkintest">
+        <method signature="firstTest.testWindowsOnly()[pri:0, instance:com.flz.rest.firstTest@5474c6c]" name="testWindowsOnly" class="com.flz.rest.firstTest"/>
+      </group> <!-- windows.checkintest -->
+    </groups>
+    <test name="Test" duration-ms="31" started-at="2018-04-26T03:31:14Z" finished-at="2018-04-26T03:31:14Z">
+      <class name="com.flz.rest.firstTest">
+        <test-method status="PASS" signature="testSingleString(java.lang.String)[pri:0, instance:com.flz.rest.firstTest@5474c6c]" name="testSingleString" duration-ms="11" started-at="2018-04-26T11:31:14Z" finished-at="2018-04-26T11:31:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSingleString -->
+        <test-method status="PASS" signature="testWindowsOnly()[pri:0, instance:com.flz.rest.firstTest@5474c6c]" name="testWindowsOnly" duration-ms="0" started-at="2018-04-26T11:31:14Z" finished-at="2018-04-26T11:31:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWindowsOnly -->
+        <test-method status="PASS" signature="testWindowsToo()[pri:0, instance:com.flz.rest.firstTest@5474c6c]" name="testWindowsToo" duration-ms="1" started-at="2018-04-26T11:31:14Z" finished-at="2018-04-26T11:31:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWindowsToo -->
+      </class> <!-- com.flz.rest.firstTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

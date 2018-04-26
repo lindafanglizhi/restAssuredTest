@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<parameter name="first-name"  value="linda"/>
+	<test name="Test">
+		<groups>
+			<run>
+				<include name="windows.*" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.flz.rest.firstTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
